@@ -1,3 +1,6 @@
+//Pankkiautomaatti VERSIO1
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -17,7 +20,7 @@ int main()
 
 
 
-    //varmistetaan ett‰ k‰ytt‰j‰ k‰ytt‰‰ demoversion tunnuslukua eli 1550
+    //varmistetaan ett√§ k√§ytt√§j√§ k√§ytt√§√§ demoversion tunnuslukua eli 1550
     for(tunnusluku; tunnusluku != 1550; scanf("%d", &tunnusluku)) {
         if(tunnusluku )
         printf("VIRHE!!! Syota demoversion tunnusluku  >");
@@ -27,9 +30,9 @@ int main()
 
     printf("paina 1 paaset nakemaan saldo\nPaina 2 paaset nostamaan rahaa\nPaina 3 naet tapahtumat\nPoistu automaatista 0\n>");
 
-    // aloitetaan do while looppi jotta p‰‰semme k‰ytt‰m‰‰n valikkoa niin kauan kun painetaan numeroa 0 josta se poistuu sen j‰lkeen
+    // aloitetaan do while looppi jotta p√§√§semme k√§ytt√§m√§√§n valikkoa niin kauan kun painetaan numeroa 0 josta se poistuu sen j√§lkeen
     do {
-    // scanf ottaa kayttajan antaman numeron ja alkaa switch lauseella katsomaan vaihto ehdon mik‰ on valittu
+    // scanf ottaa kayttajan antaman numeron ja alkaa switch lauseella katsomaan vaihto ehdon mik√§ on valittu
     scanf("%d", &syote);
     switch(syote){
 
